@@ -1,0 +1,58 @@
+.training-main-container {
+    padding: 5rem 15rem;
+}
+
+.training-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(19, 19, 117);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.training-title span {
+    color: rgb(241,73,44);
+}
+
+.training-container .icon-circle {
+    padding: 20px;
+    background-color: rgb(226, 135, 7);
+    border-radius: 100%;
+}
+
+.training-list {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    margin-left: 50px;
+}
+
+.training-container {
+    display: flex;
+    padding: 20px 0;
+    margin-left: 15px;
+}
+
+.training-content {
+    padding: 5px 15px;
+}
+
+.training-content .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(19, 19, 117);
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.training-content .para {
+    color: #000000b5;
+}
+
+.training-content .title:hover {
+    text-decoration: underline;
+}
+
+
+.training-container img {
+    width: 30px;
+}

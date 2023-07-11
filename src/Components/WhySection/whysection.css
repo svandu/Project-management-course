@@ -1,0 +1,39 @@
+.why-main-container {
+    display: flex;
+    padding: 7rem 8rem;
+}
+
+.section-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 50%;
+}
+
+.section-details .section-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(19, 19, 117);
+}
+
+.section-details .section-title span {
+    color: rgb(241,73,44);
+}
+
+.section-details .ques {
+    color: rgb(19, 19, 117);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.section-details .ans {
+    margin-top: 8px;
+    color: black;
+}
+
+.why-main-container .section-img {
+    width: 90%;
+    height: 100%;
+}

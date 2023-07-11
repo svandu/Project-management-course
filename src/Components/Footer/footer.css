@@ -1,0 +1,67 @@
+.footer-main-container {
+    width: 100%;
+    margin: 8rem 0 0 0;
+}
+
+.newsletter-container {
+    position: relative;
+    color: #fff;
+    bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-color: rgb(241,73,44);
+    padding: 2rem;
+    margin: 0 10rem;
+}
+
+.newsletter-details .newsletter-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.newsletter-container .email-section  {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0.5rem 0;
+    border-radius: 15px;
+}
+
+.newsletter-container .email-section input {
+    padding: 0.6rem 1.4rem;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    border: none;
+} 
+
+.newsletter-container .email-section button {
+    border-radius: 15px;
+    padding: 0.8rem;
+    border: none;
+    background-color: rgb(241,73,44);
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.all-links {
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10rem 0 3rem 0;
+    position: absolute;
+}
+
+.footer-container img {
+    width: 30px;
+}
+
+.footer-down-container {
+    color: #fff;
+}
